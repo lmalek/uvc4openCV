@@ -1,0 +1,89 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+$HeadURL$
+$Author$
+$Date$
+$Revision$
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+uvc4openCV: pan/tilt control example for openCV
+===============================================
+
+Copyright and license
+---------------------
+
+Copyright (C) 2009-2010 Lukasz Malek
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+
+Credits
+-------
+
+Original code from luvcview: Copyright (C) 2005-2008 Michel Xhaard
+
+
+Download and support
+--------------------
+
+Currently  does not have an official website but the software can be 
+downloaded from the Subversion server
+	https://lirec.ict.pwr.wroc.pl/svn/Vision/uvc4openCV
+
+The current maintainer of this example software is Lukasz Malek 
+<lukasz.malek@pwr.wroc.pl>
+
+
+Disclaimer
+----------
+
+Use this program as you see fit. We are not liable for damages or illegal use
+of it whatsoever. You are on your own. Use of this code is at your own risk.
+There is absolutely no warranty. Have fun with it!
+
+
+Description
+-----------
+
+This is software is an example of application v4l library to control pan/tilt
+camera. Originaly it was intedted to work with Logitech Sphere camera however
+it might work with other cameras that use the same control system. To run this
+demo one should have OpenCV installed. The main file demenstrating how to use 
+camera features is src/main.cpp.
+
+
+Building
+--------
+
+Required libraries:
+- OpenCV (libcv-dev)
+- cmake  (cmake)
+
+To compile type:
+
+mkdir build
+cd build
+cmake .
+make
+
+
+Usage
+-----
+
+To run type:
+
+./uvc4openCV
+
+To control pan/tilt use arrows.
+
