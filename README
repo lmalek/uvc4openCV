@@ -38,8 +38,8 @@ Download and support
 --------------------
 
 Currently  does not have an official website but the software can be 
-downloaded from the Subversion server
-	https://lirec.ict.pwr.wroc.pl/svn/Vision/uvc4openCV
+downloaded from the GitHub server
+	https://github.com/lmalek/uvc4openCV
 
 The current maintainer of this example software is Lukasz Malek 
 <lukasz.malek@pwr.wroc.pl>
